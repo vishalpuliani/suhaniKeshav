@@ -1,0 +1,291 @@
+body, html {
+  height: 100%;
+  background-color: #000;
+}
+
+h1 {
+  font-family: 'Tangerine', cursive;
+  font-size: 5rem;
+}
+
+h3{
+  font-family: 'Caladea', serif;
+  margin: 15px 0;
+  text-align: center;
+  color: #f0a500;
+  margin-top: 30px;
+}
+
+h2 {
+  font-family: 'Caladea', serif;
+  text-align: center;
+  padding-bottom: 3px;
+}
+
+h4{
+  color: #dbdbdb;
+  font-family: 'Kalam', cursive;
+}
+.blackSection h2{
+  color: white;
+}
+
+.whiteSection h2{
+  color: black;
+}
+
+th {
+  font-family: 'Arapey', serif;
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+
+td {
+  font-family: 'Arapey', serif;
+  font-size: 1.2rem;
+}
+
+p{
+  font-family: 'Arapey', serif;
+  font-size: 1.2rem;
+}
+
+/******* Index Page ******/
+.frontImage {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.frontImage img {
+  border-radius: 95%;
+  width: 400px;
+}
+
+.frontHeading {
+  text-align: center;
+  margin-top: 0;
+  color: #cf7500;
+  font-family: 'Tangerine', cursive;
+  font-size: 5rem;
+}
+
+/******* Main-Site ******/
+/* Navar Section */
+.profile-img {
+  width: 50px;
+  display: inline-block;
+  border-radius: 100%;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: white;
+  padding: 25px;
+  font-size: 20px;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.nav-custom {
+  background-color: #d7385e;
+}
+
+@media (min-width: 765px) {
+  .nav-custom {
+    height: 70px;
+  }
+}
+
+/* Carousel Section */
+.carousel-img {
+  width: 975px;
+}
+
+.carousel-item {
+  margin: 0 auto;
+}
+
+@media (max-width: 765px) {
+  .carousel-img {
+    width: 100%;
+  }
+}
+
+/* Story Section */
+#storySection {
+  padding: 30px 15px 0;
+  background-color: white;
+}
+
+.storyImageSection {
+  text-align: center;
+  padding: 30px;
+}
+
+.storyImageSection img {
+  width: 300px;
+}
+
+.storyTextSection {
+  padding: 30px;
+  text-align: justify;
+}
+
+@media (max-width: 765px) {
+  .storyTextSection {
+    padding-bottom: 0;
+  }
+}
+
+/**** Photos Section ****/
+#photosSection {
+  padding: 30px 15px 0;
+  background-color: #000;
+}
+
+.imgBox{
+  border: 3px solid;
+  border-color: #fff;
+  margin: 0 auto;
+  padding: 4px;
+}
+
+/*Bride and Groom Row*/
+.bg_row .imgBox{
+  width: 450px;
+}
+
+.bg_row .imgBox img{
+  width: 450px;
+  height: 300px;
+}
+
+/* Events Row */
+.eventsRow .imgBox{
+  width: 364px;
+}
+
+.eventsRow .imgBox img{
+  width: 350px;
+  height: 250px;
+}
+
+/* Extras */
+.extrasRow .imgBox{
+  width: 364px;
+}
+
+.extrasRow .imgBox img{
+  width: 350px;
+  height: 250px;
+}
+
+.image-Row {
+  margin: 20px auto 50px;
+}
+
+.eventHeading{
+  text-align: center;
+  padding: 15px;
+}
+
+.preWeddingImage img{
+  object-fit: cover;
+}
+@media (max-width:765px) {
+  .image-Row {
+    margin: 0;
+  }
+
+  .imgBox {
+    margin-top: 30px;
+  }
+
+  .eventHeading{
+    padding-bottom: 0;
+  }
+}
+
+/***Video Section***/
+#videoSection{
+  padding: 30px 15px;
+  background-color: #fff;
+}
+
+.videosHeading{
+  margin-bottom: 40px;
+}
+
+.videoBox{
+  margin: 0 auto 50px;
+  border: 3px solid;
+  border-color: #000;
+  padding: 4px;
+  width: 575px;
+  height: 330px;
+}
+
+@media (max-width:765px) {
+  .videoBox iframe{
+    width: 435px !important;
+    height: 300px !important;
+  }
+
+  .videoBox{
+    width: 450px !important;
+    height: 315px !important;
+  }
+}
+
+/***Connect Section***/
+#connectSection{
+  padding: 30px 15px;
+  background-color: #000;
+}
+
+.fontawesome{
+  color: white;
+}
+
+.socialMediaTable{
+  padding-top: 20px;
+}
+
+.socialMediaTable a{
+  color: #cf7500;
+  text-decoration: none;
+}
+
+.socialMediaTable a:visited{
+  color: #cf7500;
+}
+
+.socialMediaHeading{
+  padding: 50px 15px;
+}
+
+.borderless td, .borderless th {
+    border: none;
+    padding: 20px;
+}
+
+@media (max-width: 765px) {
+
+  .socialMediaTable{
+    padding-top: 0;
+  }
+
+  .socialMediaHeading{
+    padding: 10px 5px;
+  }
+}
+
+/***Footer Section***/
+#footer{
+  text-align: center;
+  font-family: 'Arapey', serif;
+  font-size: 1rem;
+  background-color: #000;
+}
+
+.footer-text{
+  color: #8f8f8f;
+}
