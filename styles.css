@@ -158,9 +158,14 @@ button.active.focus, button.active:focus, button.focus, button:active.focus, but
       max-width:100%;
 }
 
-@media (min-width: 765px) {
+@media (max-width: 765px) {
   .nav-custom {
     height: 70px;
+  }
+
+  .profile-img{
+    display: none;
+    padding: 0;
   }
 }
 
@@ -176,10 +181,6 @@ button.active.focus, button.active:focus, button.focus, button:active.focus, but
 @media (max-width: 765px) {
   .carousel-img {
     width: 100%;
-  }
-
-  .profile-img{
-    width: 40px;
   }
 }
 
