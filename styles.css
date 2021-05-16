@@ -4,19 +4,19 @@ font-family: 'Dancing Script', cursive;
 font-family: 'Great Vibes', cursive;
 font-family: 'Arapey', serif; */
 
-
-body, html {
+body,
+html {
   height: 100%;
   background-color: #000;
 }
 
 h1 {
-  font-family: 'Tangerine', cursive;
+  font-family: "Tangerine", cursive;
   font-size: 5rem;
 }
 
 h3 {
-  font-family: 'Tangerine', cursive;
+  font-family: "Tangerine", cursive;
   margin: 20px 0;
   text-align: center;
   color: #f0a500;
@@ -25,14 +25,14 @@ h3 {
 }
 
 h2 {
-  font-family: 'Caladea', serif;
+  font-family: "Caladea", serif;
   text-align: center;
-  padding: 5px 0 ;
+  padding: 5px 0;
 }
 
 h4 {
   color: #dbdbdb;
-  font-family: 'Caladea', serif;
+  font-family: "Caladea", serif;
 }
 
 .blackSection h2 {
@@ -44,18 +44,18 @@ h4 {
 }
 
 th {
-  font-family: 'Arapey', serif;
+  font-family: "Arapey", serif;
   font-weight: bold;
   font-size: 1.4rem;
 }
 
 td {
-  font-family: 'Arapey', serif;
+  font-family: "Arapey", serif;
   font-size: 1.2rem;
 }
 
 p {
-  font-family: 'Arapey', serif;
+  font-family: "Arapey", serif;
   font-size: 1.2rem;
 }
 
@@ -73,7 +73,7 @@ p {
 .frontHeading {
   margin-top: 0;
   color: #cf7500;
-  font-family: 'Tangerine', cursive;
+  font-family: "Tangerine", cursive;
   font-size: 5rem;
 }
 
@@ -85,23 +85,23 @@ p {
   background-color: #d7385e;
   color: white;
   font-size: 1.2rem;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   padding: 9px;
 }
 
 .headingContainer a:hover {
-  color: rgba(0, 0, 0, .7);
+  color: rgba(0, 0, 0, 0.7);
 }
 
 @media (max-width: 765px) {
-  .frontImage img{
+  .frontImage img {
     width: 300px;
   }
 
-  .frontHeading{
+  .frontHeading {
     font-size: 4rem;
   }
-  .frontPageBtn{
+  .frontPageBtn {
     font-size: 1rem;
     padding: 8px;
   }
@@ -119,10 +119,10 @@ p {
   color: white;
   padding: 10px;
   font-size: 20px;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
 }
 
-.navbar-light .navbar-nav .nav-link:hover{
+.navbar-light .navbar-nav .nav-link:hover {
   color: #f8b500;
 }
 /* change navbar-toggler inside lines color (stroke) */
@@ -134,7 +134,7 @@ p {
 .navbar-toggler {
   border-color: #f8b500 !important;
   border-width: 2px;
-  padding: .15rem .50rem !important;
+  padding: 0.15rem 0.5rem !important;
 }
 
 .navbar-toggler-icon {
@@ -143,19 +143,24 @@ p {
 }
 
 /* To remove the Blue Box that comes on clicking the Toggle Button*/
-button.active.focus, button.active:focus, button.focus, button:active.focus, button:active:focus, button:focus {
-    outline: 0;
+button.active.focus,
+button.active:focus,
+button.focus,
+button:active.focus,
+button:active:focus,
+button:focus {
+  outline: 0;
 }
 
 .navbar-inner {
-    background:transparent;
+  background: transparent;
 }
 
-.navbar{
-      position:absolute;
-      width:100%;
-      z-index:10;
-      max-width:100%;
+.navbar {
+  position: absolute;
+  width: 100%;
+  z-index: 10;
+  max-width: 100%;
 }
 
 @media (max-width: 765px) {
@@ -163,9 +168,13 @@ button.active.focus, button.active:focus, button.focus, button:active.focus, but
     height: 70px;
   }
 
-  .profile-img{
+  .profile-img {
     display: none;
     padding: 0;
+  }
+
+  .navbar-light .navbar-nav .nav-link {
+    font-size: 17px;
   }
 }
 
@@ -190,22 +199,22 @@ button.active.focus, button.active:focus, button.focus, button:active.focus, but
   background-color: white;
 }
 
-.emotionalMessage{
+.emotionalMessage {
   text-align: center;
-  font-family: 'Dancing Script', cursive;
+  font-family: "Dancing Script", cursive;
   font-size: 2rem;
   margin: 0 auto;
   width: 70%;
   line-height: 1.5;
 }
 
-#storySection .videoBox{
+#storySection .videoBox {
   margin: 30px 0;
   height: 450px;
 }
 
 @media (max-width: 765px) {
-  .emotionalMessage{
+  .emotionalMessage {
     width: 85%;
   }
 }
@@ -231,16 +240,27 @@ button.active.focus, button.active:focus, button.focus, button:active.focus, but
   width: 100%;
 }
 
+.photosSubHeading {
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+.belowEventsHeading {
+  text-align: center;
+  color: #fff;
+  margin-top: 0;
+  padding-top: 0;
+}
+
 .eventHeading {
   text-align: center;
   padding: 10px;
 }
 
-.extrasRow{
+.extrasRow {
   text-align: center;
 }
 
-@media (max-width: 992px){
+@media (max-width: 992px) {
   .image-Row {
     margin: 0;
   }
@@ -249,11 +269,10 @@ button.active.focus, button.active:focus, button.focus, button:active.focus, but
     padding-bottom: 10px;
   }
 
-  #photosSection{
+  #photosSection {
     margin-bottom: 50px;
   }
 }
-
 
 /***Video Section***/
 #videoSection {
@@ -273,7 +292,7 @@ button.active.focus, button.active:focus, button.focus, button:active.focus, but
   height: 365px;
 }
 
-.videoBox iframe{
+.videoBox iframe {
   width: 100%;
   height: 100%;
 }
@@ -305,7 +324,8 @@ button.active.focus, button.active:focus, button.focus, button:active.focus, but
   padding: 50px 15px;
 }
 
-.borderless td, .borderless th {
+.borderless td,
+.borderless th {
   border: none;
   padding: 20px;
 }
@@ -322,12 +342,20 @@ button.active.focus, button.active:focus, button.focus, button:active.focus, but
 
 /***Footer Section***/
 #footer {
+  padding-top: 10px;
   text-align: center;
-  font-family: 'Arapey', serif;
-  font-size: 1rem;
   background-color: #000;
 }
 
 .footer-text {
+  font-family: "Arapey", serif;
+  font-size: 1rem;
   color: #8f8f8f;
+  padding-bottom: 10px;
+}
+
+.footer-special {
+  font-family: "Great Vibes", cursive;
+  font-size: 1.7rem;
+  color: #d7385e;
 }
