@@ -60,14 +60,34 @@ p {
 }
 
 /******* Index Page ******/
+/*.container {
+   position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+  display: flex;
+  align-items: center;
+  vertical-align: middle;
+  flex-direction: column;
+}*/
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  align-items: center;
+  vertical-align: middle;
+  flex-direction: column;
+}
 .frontImage {
-  text-align: center;
-  margin-top: 40px;
+  margin-top: 10px;
 }
 
 .frontImage img {
+  width: 325px;
   border-radius: 50%;
-  width: 350px;
 }
 
 .frontHeading {
@@ -94,12 +114,9 @@ p {
 }
 
 @media (max-width: 765px) {
-  .frontImage img {
-    width: 300px;
-  }
-
   .frontHeading {
     font-size: 4rem;
+    margin-top: 10px;
   }
   .frontPageBtn {
     font-size: 1rem;
